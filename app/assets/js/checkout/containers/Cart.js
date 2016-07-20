@@ -7,7 +7,6 @@ import {getAllProducts} from '../reducers/products';
 
 class CartContainer extends Component {
   render() {
-    console.log('this.props.products', this.props.products);
     return (
         <div className="cart-page">
           <h2 className="text-center">Cart Page</h2>

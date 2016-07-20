@@ -15,7 +15,6 @@ class Select extends Component {
 
   render() {
     const data = this.props.data;
-    console.log('this.props.data.quantity', this.props.data.quantity);
     const options = data.data.map(function (item, idx) {
       return (
         <option key={idx} value={item.value}>{item.name}</option>

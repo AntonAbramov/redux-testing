@@ -266,7 +266,6 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
 [data-icon]:before,
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "juniqe";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -394,222 +393,6 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
       background-image: url(/app/assets/images/470a9f14ba0bba63-sprite-2x.png);
       background-size: 376px 301px; } }
 
-.icon-back-to-top-arrow:before {
-  content: "\61"; }
-
-.icon-back-arrow:before {
-  content: "\62"; }
-
-.icon-basket:before {
-  content: "\63"; }
-
-.icon-button-arrow:before {
-  content: "\64"; }
-
-.icon-checkmark:before, .checkbox__input:checked + .checkbox__icon:before, .select__option.selected:before {
-  content: "e"; }
-
-.icon-dropdown:before {
-  content: "\66"; }
-
-.icon-filter:before {
-  content: "\67"; }
-
-.icon-follow-active:before {
-  content: "\68"; }
-
-.icon-follow-default:before {
-  content: "\69"; }
-
-.icon-hamburger:before {
-  content: "\6a"; }
-
-.icon-mail:before {
-  content: "\6b"; }
-
-.icon-menu-close:before {
-  content: "\6c"; }
-
-.icon-menu-dropdown-minus:before {
-  content: "\6d"; }
-
-.icon-menu-dropdown-plus:before {
-  content: "\6e"; }
-
-.icon-more:before {
-  content: "\6f"; }
-
-.icon-phone:before {
-  content: "\70"; }
-
-.icon-plus:before, .menu__collapse-handle-icon:before, .menu-list__name a:before {
-  content: "\71"; }
-
-.icon-search:before {
-  content: "\72"; }
-
-.icon-wishlist-active:before {
-  content: "\73"; }
-
-.icon-wishlist-default:before {
-  content: "\74"; }
-
-.icon-logo-tagline:before {
-  content: "\75"; }
-
-.icon-chevron-down:before {
-  content: "\76"; }
-
-.icon-chevron-left:before {
-  content: "\77"; }
-
-.icon-chevron-right:before {
-  content: "\78"; }
-
-.icon-chevron-up:before {
-  content: "\79"; }
-
-.icon-angle-right:before, .ord-table__link a:before {
-  content: "\7a"; }
-
-.icon-angle-left:before {
-  content: "\41"; }
-
-.icon-angle-down:before, .select:before, .menu-categories__link .icon:before, .filter__mob-trigger.is-closed .icon:before, .filter__section.is-closed .icon-angle-up:before, .filter__section.is-closed .menu-categories__link.is-open .icon:before, .menu-categories__link.is-open .filter__section.is-closed .icon:before, .filter__section.is-closed .modal__minipdp .owl-prev:before, .modal__minipdp .filter__section.is-closed .owl-prev:before, .filter__section.is-closed .pdp-description__toggle.is-open .icon:before, .pdp-description__toggle.is-open .filter__section.is-closed .icon:before, .modal__minipdp .owl-next:before {
-  content: "\42"; }
-
-.icon-angle-up:before, .menu-categories__link.is-open .icon:before, .modal__minipdp .owl-prev:before, .pdp-description__toggle.is-open .icon:before {
-  content: "\43"; }
-
-.icon-left-open-big:before, .cms__carousel .swipe__arrow--previous:before {
-  content: "\44"; }
-
-.icon-down-open-big:before {
-  content: "\45"; }
-
-.icon-right-open-big:before, .cms__carousel .swipe__arrow--next:before, .acc-nav__item:before {
-  content: "\46"; }
-
-.icon-up-open-big:before {
-  content: "\47"; }
-
-.icon-truck:before {
-  content: "\7a"; }
-
-.icon-minus:before {
-  content: "\41"; }
-
-.icon-follow-artist-default:before {
-  content: "\48"; }
-
-.icon-usp-artist-support-active:before {
-  content: "\49"; }
-
-.icon-usp-individual-prod-active:before {
-  content: "\4a"; }
-
-.icon-usp-inspiration-active:before {
-  content: "\4b"; }
-
-.icon-angle-double-down:before {
-  content: "\4c"; }
-
-.icon-angle-double-left:before {
-  content: "\4d"; }
-
-.icon-angle-double-right:before {
-  content: "N"; }
-
-.icon-angle-double-up:before {
-  content: "\4f"; }
-
-.icon-angle-left:before {
-  content: "\50"; }
-
-.icon-angle-right:before, .ord-table__link a:before {
-  content: "\51"; }
-
-.icon-checkout-delivery:before {
-  content: "\52"; }
-
-.icon-lock:before {
-  content: "\53"; }
-
-.icon-checkout-car:before {
-  content: "\54"; }
-
-.icon-checkout-arrow-top:before {
-  content: "\55"; }
-
-.icon-checkout-arrow:before {
-  content: "\56"; }
-
-.icon-arrow-right:before {
-  content: "\57"; }
-
-.icon-arrows-expand:before {
-  content: "\58"; }
-
-.icon-user:before {
-  content: "\59"; }
-
-.icon-arrow-up:before, .promotion-bar.is-floating .promotion-bar--toggler:before {
-  content: "\5a"; }
-
-.icon-filter-1:before {
-  content: "\30"; }
-
-.icon-icon-cart:before, .header__basket .is-active.header__cart-icon:before,
-.header__basket.is-active .header__cart-icon:before, .product__add-to-cart:hover .icon-juniqe:before, .product__add-to-cart:hover .select:before, .product__add-to-cart:hover .select__option.selected:before, .product__add-to-cart:hover .menu__collapse-handle-icon:before, .product__add-to-cart:hover .menu-categories__link .icon:before, .menu-categories__link .product__add-to-cart:hover .icon:before, .product__add-to-cart:hover .promotion-bar.is-floating .promotion-bar--toggler:before, .promotion-bar.is-floating .product__add-to-cart:hover .promotion-bar--toggler:before, .product__add-to-cart:hover .menu-list__name a:before, .menu-list__name .product__add-to-cart:hover a:before, .product__add-to-cart:hover .cms__carousel .swipe__arrow:before, .cms__carousel .product__add-to-cart:hover .swipe__arrow:before, .product__add-to-cart:hover .modal__minipdp .owl-next:before, .modal__minipdp .product__add-to-cart:hover .owl-next:before, .product__add-to-cart:hover .modal__minipdp .owl-prev:before, .modal__minipdp .product__add-to-cart:hover .owl-prev:before, .product__add-to-cart:hover .ord-table__link a:before, .ord-table__link .product__add-to-cart:hover a:before, .product__add-to-cart:hover .acc-nav__item:before, .product__add-to-cart.is-active .icon-juniqe:before, .product__add-to-cart.is-active .select:before, .product__add-to-cart.is-active .select__option.selected:before, .product__add-to-cart.is-active .menu__collapse-handle-icon:before, .product__add-to-cart.is-active .menu-categories__link .icon:before, .menu-categories__link .product__add-to-cart.is-active .icon:before, .product__add-to-cart.is-active .promotion-bar.is-floating .promotion-bar--toggler:before, .promotion-bar.is-floating .product__add-to-cart.is-active .promotion-bar--toggler:before, .product__add-to-cart.is-active .menu-list__name a:before, .menu-list__name .product__add-to-cart.is-active a:before, .product__add-to-cart.is-active .cms__carousel .swipe__arrow:before, .cms__carousel .product__add-to-cart.is-active .swipe__arrow:before, .product__add-to-cart.is-active .modal__minipdp .owl-next:before, .modal__minipdp .product__add-to-cart.is-active .owl-next:before, .product__add-to-cart.is-active .modal__minipdp .owl-prev:before, .modal__minipdp .product__add-to-cart.is-active .owl-prev:before, .product__add-to-cart.is-active .ord-table__link a:before, .ord-table__link .product__add-to-cart.is-active a:before, .product__add-to-cart.is-active .acc-nav__item:before {
-  content: "\33"; }
-
-.icon-icon-cart-stroke:before, .header__cart-icon:before {
-  content: "\34"; }
-
-.icon-icon-freereturns:before {
-  content: "\37"; }
-
-.icon-icon-freeshipping:before {
-  content: "\38"; }
-
-.icon-icon-heart:before, .header__wishlist.is-active .icon-icon-heart-stroke:before, .minipdp__wishlist-btn.is-active .icon:before, .pdp__wishlist-btn.is-active .icon:before {
-  content: "9"; }
-
-.icon-icon-heart-stroke:before {
-  content: "!"; }
-
-.icon-icon-payreturns:before {
-  content: "\22"; }
-
-.icon-icon-search:before {
-  content: "\25"; }
-
-.icon-icon-user:before, .nav-user__icon.is-logged-in > i:before {
-  content: "&"; }
-
-.icon-icon-user-stroke:before {
-  content: "\27"; }
-
-.icon-icon-truck:before {
-  content: "\31"; }
-
-.icon-icon-arroright:before {
-  content: "\32"; }
-
-.icon-icon-arrowdown:before {
-  content: "\35"; }
-
-.icon-icon-arrowleft:before {
-  content: "\36"; }
-
-.icon-icon-arrowup:before {
-  content: "\23"; }
-
-.icon-icon-close:before {
-  content: "\24"; }
-
-.icon-icon-emptywishlist:before {
-  content: "\28"; }
 
 *::-moz-selection {
   background: #6edcce;
@@ -639,32 +422,6 @@ a {
 
 p {
   margin: 0 0 10px; }
-
-@font-face {
-  font-family: "juniqe";
-  src: url("../fonts/juniqe.eot");
-  src: url("../fonts/juniqe.eot?#iefix") format("embedded-opentype"), url("../fonts/juniqe.woff") format("woff"), url("../fonts/juniqe.ttf") format("truetype"), url("../fonts/juniqe.svg#juniqe") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Darkwoman";
-  src: url("../fonts/Darkwoman.eot");
-  src: url("../fonts/Darkwoman.eot?#iefix") format("embedded-opentype"), url("../fonts/Darkwoman.woff") format("woff"), url("../fonts/Darkwoman.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-.text-handwritten, .cms__font-special, .spread-the-love__heading {
-  font-family: "Darkwoman", sans-serif; }
-
-.font-gotham--medium {
-  font-family: "GothamNarrowMedium", sans-serif; }
-
-.font-gotham--book, .home-slider__cta {
-  font-family: "GothamNarrowBook", sans-serif; }
-
-.font-gotham--bold, .myacc-personal__heading, .returns__thead__cell {
-  font-family: "GothamNarrowBold", sans-serif; }
 
 .text--uxs {
   font-size: 10px;
@@ -2668,9 +2425,6 @@ h4, h5, h6 {
   .select select {
     background-color: transparent;
     background-image: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     border: none;
     width: 100%;
     height: 100%;
@@ -11684,7 +11438,6 @@ img {
     .checkout-progress__li.is-passed .checkout-progress__icon, .checkout-progress__li.is-current .checkout-progress__icon {
       background: #000; }
     .checkout-progress__li.is-passed .checkout-progress__text:before {
-      font-family: "juniqe";
       font-style: normal;
       font-weight: normal;
       font-variant: normal;
@@ -12254,7 +12007,7 @@ img {
         border-color: #ebebeb; }
   .select select {
     display: none;
-    width: 140%;
+    width: 100%;
     padding: 4px 28% 4px 10px; }
   .home-slider__item--with-btn {
     height: 376px;

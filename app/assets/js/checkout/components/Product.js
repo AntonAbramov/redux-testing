@@ -15,7 +15,6 @@ class Product extends Component {
 
   render() {
     const data = this.props.data;
-    //console.log('data.selectData.quantity', data.selectData.quantity);
     return (
       <tr>
         <td className="cart-table__item text-left">
