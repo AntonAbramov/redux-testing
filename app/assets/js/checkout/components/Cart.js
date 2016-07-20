@@ -64,7 +64,6 @@ class Cart extends Component {
 };
 
 Cart.propTypes = {
-  products: PropTypes.array,
   total: PropTypes.string,
   onCheckoutClicked: PropTypes.func
 };

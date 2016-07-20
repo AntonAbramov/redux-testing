@@ -22,8 +22,6 @@ export function Products(state = initialState, action) {
       break;
     }
     case actionTypes.UPDATE_QUANTITY: {
-      console.log('state', action);
-      console.log('payload', action.payload);
       Object.assign({}, state, state['products'][action.index]['selectData']['quantity'] =  action.payload);
       break;
     }
@@ -34,5 +32,5 @@ export function Products(state = initialState, action) {
 }
 
 export function getAllProducts(state) {
-  return state.products.products;
+  return state.products;
 }

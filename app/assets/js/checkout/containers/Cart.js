@@ -20,22 +20,22 @@ class CartContainer extends Component {
 }
 
 CartContainer.propTypes = {
-  products: PropTypes.array,
+  products: PropTypes.object,
   updateQntyAction: PropTypes.func
 }
 
 function mapStateToProps(state) {
   return {
-    products: getAllProducts(state)
+    products: state.products
   };
 }
 
-function mapDispatchToProps(dispatch) {
+/*function mapDispatchToProps(dispatch) {
   return bindActionCreators(updateQntyAction, dispatch)
-}
+}*/
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  {updateQntyAction}
 )(CartContainer);
 
