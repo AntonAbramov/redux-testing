@@ -32,5 +32,5 @@ export function Products(state = initialState, action) {
 }
 
 export function getAllProducts(state) {
-  return state.products;
+  return state.products.products;
 }

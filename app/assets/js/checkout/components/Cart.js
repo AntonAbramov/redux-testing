@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 class Cart extends Component {
   render() {
-    const { products } = this.props;
+    const products = this.props.products.products;
     const hasProducts = (products && products.length > 0);
     const productItems = !hasProducts ?
       <tr>
